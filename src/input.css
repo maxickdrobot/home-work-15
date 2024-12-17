@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply w-11/12 max-w-[80rem]
+}
+
+.navbar-link {
+    @apply text-lg/6 text-white hover:text-accent transition-all duration-500;
+}
+
+.primary-btn {
+    @apply text-lg/6 bg-accent text-dark px-12 py-4 font-bold hover:bg-[#EDC14A] transition-all duration-500 cursor-pointer;
+}
+
+.title {
+    @apply lg:text-4xl font-bold leading-[48px] text-dark tracking-tight text-3xl;
+}
+
+.subtitle {
+    @apply lg:text-3xl leading-10 font-bold text-dark text-2xl;
+}
+
+.subsubtitle {
+    @apply font-bold lg:text-2xl text-dark text-xl;
+}
+
+.primary-text {
+    @apply font-secondary text-base leading-7
+}
+
+.post {
+    @apply px-4 py-6 sm:p-8 sm:pb-[25px]
+}
+
+.logo {
+    @apply w-28 md:w-36
+}
+
+.category-card {
+    @apply p-8 lg:max-w-[300px] border border-mediumGray;
+}
